@@ -49,6 +49,8 @@ public class Controleur extends HttpServlet {
             out.println("<h1>Servlet Controleur at " + st.toto() + "</h1>");
             out.println("</body>");
             out.println("</html>");
+            
+            
         }
     }
 

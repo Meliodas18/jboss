@@ -5,6 +5,7 @@
  */
 package ejb;
 
+import java.util.Date;
 import javax.ejb.Stateless;
 import javax.ejb.LocalBean;
 import javax.persistence.EntityManager;
@@ -20,10 +21,17 @@ public class SessionTest {
     
     @PersistenceContext
     private EntityManager em;
+    
+    
 
     public String toto(){
+        
         EntityTest test = new EntityTest("Coucou !");
         em.persist(test);
         return "CouCou !";
+        
+       
     }
+    
+   
 }
