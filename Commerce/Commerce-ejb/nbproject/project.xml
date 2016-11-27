@@ -3,7 +3,7 @@
     <type>org.netbeans.modules.j2ee.ejbjarproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2ee-ejbjarproject/3">
-            <name>Commerce-ejb</name>
+            <name>projet-ejb</name>
             <minimum-ant-version>1.6.5</minimum-ant-version>
             <included-library dirs="200">libs.hibernate4-persistence.classpath</included-library>
             <included-library dirs="200">libs.JAVADB_DRIVER_LABEL.classpath</included-library>

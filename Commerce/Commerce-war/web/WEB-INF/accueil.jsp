@@ -57,9 +57,9 @@
 							
                                                     <div class="box">
 								<a  class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-								<div class="inner">
+								<div >
 									<h3>Ajouter un Auteur</h3>
-									<a href="controleurDvd?action=ajoutAuteur" class="button style2 fit" >Ajouter</a>
+									<a href="controleurDvd?action=ajoutAuteur" class="button style2 fit">Ajouter</a>
 								</div>
 							</div>
                                                     
@@ -102,17 +102,9 @@
 						</div>
 				</footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		
                         
                         
-                        
-                        <a href="controleurDvd?action=ajoutAuteur">Ajouter</a>
 
 	</body>
 </html>

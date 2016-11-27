@@ -43,11 +43,13 @@ public class DVD implements Serializable {
     @ManyToOne
     private Realisateur realisateur;
     
-    public DVD (String titre, float prix, Date date, int quantite ) {
+    public DVD (String titre, float prix, Date date, int quantite, Realisateur realisateur, Auteur auteur ) {
         this.titre = titre; 
         this.prix = prix;
         this.date = date;
         this.quantite = quantite;
+        this.realisateur= realisateur;
+        this.auteur = auteur;
     }
 
     public Auteur getAuteur() {
